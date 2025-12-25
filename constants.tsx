@@ -1,0 +1,155 @@
+
+import { Product, Testimonial, Feature } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'nova-pro',
+    name: 'Nova Pro',
+    tagline: 'Professional Grade Audio',
+    category: 'Over-Ear',
+    price: '$299',
+    description: 'Precision engineered for the ultimate audiophile experience.',
+    specs: {
+      driver: '40mm Beryllium',
+      battery: '50 Hours',
+      anc: true,
+      waterproof: 'IPX4',
+    },
+    color: '#00D4FF',
+    imageUrl: 'https://picsum.photos/seed/nova/600/600',
+  },
+  {
+    id: 'echo-buds',
+    name: 'Echo Buds',
+    tagline: 'Unmatched Portability',
+    category: 'TWS',
+    price: '$149',
+    description: 'Crystal clear sound in the palm of your hand.',
+    specs: {
+      driver: '10mm Dynamic',
+      battery: '30 Hours',
+      anc: true,
+      waterproof: 'IPX7',
+    },
+    color: '#FFD700',
+    imageUrl: 'https://picsum.photos/seed/echo/600/600',
+  },
+  {
+    id: 'velocity-x',
+    name: 'Velocity X',
+    tagline: 'Built for Motion',
+    category: 'Neckband',
+    price: '$79',
+    description: 'The perfect companion for your active lifestyle.',
+    specs: {
+      driver: '12mm Bass Boost',
+      battery: '24 Hours',
+      anc: false,
+      waterproof: 'IPX5',
+    },
+    color: '#FFFFFF',
+    imageUrl: 'https://picsum.photos/seed/velox/600/600',
+  },
+  {
+    id: 'zenith-max',
+    name: 'Zenith Max',
+    tagline: 'Luxury Meets Comfort',
+    category: 'Over-Ear',
+    price: '$399',
+    description: 'Memory foam earcups and carbon fiber construction.',
+    specs: {
+      driver: '50mm Planar Magnetic',
+      battery: '60 Hours',
+      anc: true,
+      waterproof: 'IPX4',
+    },
+    color: '#555555',
+    imageUrl: 'https://picsum.photos/seed/zenith/600/600',
+  },
+  {
+    id: 'pulse-tws',
+    name: 'Pulse TWS',
+    tagline: 'The Beat Never Stops',
+    category: 'TWS',
+    price: '$129',
+    description: 'Dynamic sound signatures for every genre.',
+    specs: {
+      driver: '8mm Graphene',
+      battery: '40 Hours',
+      anc: true,
+      waterproof: 'IPX6',
+    },
+    color: '#00D4FF',
+    imageUrl: 'https://picsum.photos/seed/pulse/600/600',
+  },
+  {
+    id: 'alpha-cable',
+    name: 'Alpha Pro Cable',
+    tagline: 'Lossless Connection',
+    category: 'Accessories',
+    price: '$49',
+    description: 'Silver-plated copper cores for zero interference.',
+    specs: {
+      driver: 'N/A',
+      battery: 'N/A',
+      anc: false,
+      waterproof: 'N/A',
+    },
+    color: '#FFD700',
+    imageUrl: 'https://picsum.photos/seed/cable/600/600',
+  },
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: 1,
+    name: 'Arjun Sharma',
+    role: 'Music Producer',
+    content: "The Nova Pro has changed how I monitor my tracks. The detail is unparalleled.",
+    rating: 5,
+    avatar: 'https://i.pravatar.cc/150?u=arjun',
+  },
+  {
+    id: 2,
+    name: 'Sarah Jenkins',
+    role: 'Fitness Influencer',
+    content: "Echo Buds stay in during my toughest workouts. Waterproofing is legit!",
+    rating: 5,
+    avatar: 'https://i.pravatar.cc/150?u=sarah',
+  },
+  {
+    id: 3,
+    name: 'Vikram Malhotra',
+    role: 'Audiophile',
+    content: "Finally, an Indian brand competing with the giants. Satyam is the real deal.",
+    rating: 5,
+    avatar: 'https://i.pravatar.cc/150?u=vikram',
+  },
+];
+
+export const FEATURES: Feature[] = [
+  {
+    id: 1,
+    title: 'Active Noise Cancellation',
+    description: 'Blocks up to 45dB of ambient noise with hybrid ANC technology.',
+    icon: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+  },
+  {
+    id: 2,
+    title: 'Spatial Audio',
+    description: '360-degree immersive soundstage for a cinematic experience.',
+    icon: 'M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0 M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0 M12 3v2 M12 19v2 M3 12h2 M19 12h2',
+  },
+  {
+    id: 3,
+    title: 'Custom EQ',
+    description: 'Fine-tune your sound via the Satyam App with 10-band precision.',
+    icon: 'M3 17h2v-7H3v7zm4 3h2V7H7v13zm4-10h2v10h-2V10zm4 4h2V4h-2v10zm4 6h2v-7h-2v7z',
+  },
+  {
+    id: 4,
+    title: 'Ultra-Fast Charging',
+    description: '10 minutes of charging gives you 5 hours of playtime.',
+    icon: 'M13 2L3 14h9l-1 8 10-12h-9l1-8z',
+  },
+];

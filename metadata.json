@@ -1,0 +1,8 @@
+{
+  "name": "Satyam Headphones Showcase",
+  "description": "A premium audio brand showcase featuring high-performance headphones and earbuds with immersive 3D product interactions and modern UI design.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
